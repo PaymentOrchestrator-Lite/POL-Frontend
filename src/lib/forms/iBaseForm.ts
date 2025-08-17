@@ -1,4 +1,3 @@
-import { iCookieIdObject } from "../../state/cookies/iCookieState";
 
 export interface form_value_path<form_data> {
   form: {
@@ -12,7 +11,7 @@ export interface iAlertReponseArgs {
   refresh : boolean
 }
 
-export interface iRedirectToWithStateReponseArgs<T = iCookieIdObject> {
+export interface iRedirectToWithStateReponseArgs<T = any> {
   redirectTo: string
   key: string
   state: T
