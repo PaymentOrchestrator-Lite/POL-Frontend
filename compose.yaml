@@ -1,0 +1,7 @@
+name: pol-frontend
+services:
+  pol-frontend-web:
+    container_name: pol-frontend-web
+    build : ./
+    ports:
+      - 4200:4654

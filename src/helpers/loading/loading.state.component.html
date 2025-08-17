@@ -1,0 +1,8 @@
+<div *ngIf="isLoading$ | async" class="fixed w-full h-full flex flex-col justify-center items-center z-[999999] bg-white opacity-70">
+  <div class="opacity-100 flex flex-col gap-6 items-center  z-[999999]">
+    <div class="loading loading-spinner text-secondary w-32 z-[999999]"></div>
+    <div class="text-2xl font-bold text-center w-full  z-[999999]">
+      Please wait...
+    </div>
+  </div>
+</div>

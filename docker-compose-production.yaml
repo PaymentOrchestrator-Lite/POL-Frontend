@@ -1,0 +1,8 @@
+name: pol-frontend
+
+services:
+  pol-frontend-web:
+    container_name: pol-frontend-web
+    build : ./
+    expose:
+      - 80:4654
